@@ -5,7 +5,7 @@ namespace Acr.UserDialogs
 {
     public static partial class UserDialogs
     {
-        #if NETSTANDARD
+        #if NET8_0
         static IUserDialogs currentInstance;
         public static IUserDialogs Instance
         {
